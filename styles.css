@@ -19,3 +19,31 @@
   display: flex;
   justify-content: right;
 }
+
+.popup {
+  position: absolute;
+  right: 2rem;
+  border-radius: .4rem;
+}
+
+.list-item:not(:first-child) {
+  margin-top: .5rem;
+}
+
+.list-item {
+  padding: .4rem .8rem;
+  border-radius: .2rem;
+  display: flex;
+}
+
+.list-item:hover {
+  background-color: lightgray;
+}
+
+.button {
+  display: flex;
+  gap: .4rem;
+  width: 100%;
+}
+
+
