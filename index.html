@@ -15,6 +15,7 @@
 
     <div class="image-wrapper bg-gray-700 rounded-lg p-4">
       <img
+        id="image-element"
         src="https://images.unsplash.com/photo-1444703686981-a3abbc4d4fe3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80"
         alt="">
 
@@ -31,7 +32,7 @@
         </button>
       </div>
 
-      <div id="popup" class="popup bg-gray-50 px-6 py-4">
+      <div id="popup" class="popup bg-gray-50 px-6 py-4 hidden">
         <ul class="popup-list">
           <li class="list-item">
             <div class="button-wrapper">
@@ -52,7 +53,9 @@
             </div>
           </li>
           <li class="list-item">
-            <button class="button">
+            <button class="button"
+            id="random-image-button"
+            >
               <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-replace" width="24"
                 height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
                 stroke-linecap="round" stroke-linejoin="round">
